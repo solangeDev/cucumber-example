@@ -1,5 +1,6 @@
-Feature: Example feature
+# features/example.feature
+Feature: Simple scenario
 
   Scenario: Simple scenario
     Given I open Google
-    Then the title should be "Google"
+    Then I should see the Google search box

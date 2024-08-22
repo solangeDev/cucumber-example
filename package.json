@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "cucumber-js --format json:reports/cucumber_report.json && node reporter.js"
+        "test": "npx cucumber-js",
+        "test-report": "npx cucumber-js  --format json:reports/cucumber_report.json && node reporter.js"
     },
     "keywords": [],
     "author": "",
@@ -12,6 +13,9 @@
     "devDependencies": {
         "@cucumber/cucumber": "^10.9.0",
         "cucumber-html-reporter": "^7.1.1",
-        "selenium-webdriver": "^4.23.0"
+        "selenium-webdriver": "^4.23.0",
+        "testcafe": "^3.6.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4"
     }
 }
