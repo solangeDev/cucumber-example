@@ -1,7 +1,7 @@
-const { Given, Then } = require('@cucumber/cucumber');
+const { Given, Then, setDefaultTimeout } = require('@cucumber/cucumber');
 const assert = require('assert');
 const { Builder } = require('selenium-webdriver');
-
+setDefaultTimeout(60 * 1000);
 let driver;
 
 Given('I open Google', async function() {
