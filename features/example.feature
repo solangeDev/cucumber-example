@@ -2,5 +2,5 @@
 Feature: Simple scenario
 
   Scenario: Simple scenario
-    Given I open Google
-    Then I should see the Google search box lala
+    Given I open Appian
+    Then I Click the option En otro lugar
