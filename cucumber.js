@@ -1,4 +1,4 @@
 // cucumber.js
 module.exports = {
-  default: `--require ./features/steps/*.js`
+  default: `--require ./features/step_definitions/*.js`
 };

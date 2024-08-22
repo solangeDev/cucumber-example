@@ -25,6 +25,6 @@ Given('I open Google', async function () {
     await testcafeTest;
 });
 
-Then('I should see the Google search box', async function () {
+Then('I should see the Google search box lala', async function () {
     // La verificación real se hace en el archivo de prueba de TestCafe.
 });
