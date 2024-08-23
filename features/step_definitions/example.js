@@ -9,7 +9,7 @@ let testcafe = null;
 let runner = null;
 let testController = null;
 
-Given('I open Appian', async function () {
+Given('I open Appian', { timeout: 60 * 1000 }, async function () {
     if (!testcafe) {
         testcafe = await createTestCafe();
     }
